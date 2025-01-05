@@ -1,2 +1,4 @@
-# TitanicSurvialPrediction
-This project predicts Titanic passenger survival using machine learning models based on features like sex, class, and family size. It evaluates the performance of multiple classifiers, including Logistic Regression, Naive Bayes, Decision Tree, KNN, Linear SVM, and SVM.
+# Survival Prediction of Titanic Passengers Using Classification Models
+This project aims to predict the survival of passengers aboard the Titanic using machine learning. The dataset consists of various features like passenger sex, class, and the number of family members aboard, which are used to classify whether a passenger survived or not.
+
+The dataset is preprocessed by removing irrelevant columns such as Cabin, Ticket, Name, and PassengerId. Multiple machine learning models are trained on the training data, including Logistic Regression, Naive Bayes, Decision Tree, KNN, Linear SVM, and SVM. These models are then evaluated using accuracy and AUC scores, along with confusion matrices and classification reports. Additionally, ROC curves are plotted for each model to visualize their performance.
